@@ -9,7 +9,7 @@ const router = Router();
 
 // ---------- GET /api/health ----------
 // ใช้ทดสอบว่า server รันอยู่
-router.get("health", (req, res) => {
+router.get("/health", (req, res) => {
          res.json({ status: "ok", message: "Portfolio API is running" });
 });
 

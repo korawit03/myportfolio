@@ -34,7 +34,7 @@ const data = {
                            tags: ["React", "Tailwind CSS", "Express", "docker"],
                            github: "https://github.com/korawit03/portfolio",
                            demo: "http://your-domain.com",
-                           image: "/projects/portfolio.png",
+                           image: "",
                   },
                   {
                            id: 2,
@@ -43,14 +43,14 @@ const data = {
                            tags: ["React", "Node.js", "superbase", "Tailwind CSS"],
                            github: "https://github.com/korawit03/Project_Web",
                            demo: "http://your-domain.com",
-                           image: "/projects/project_web.png",
+                           image: "",
                   },
          ],
          // ประสบการณ์การฝึกงาน
          experience: [
                   {
                            role: "service ",
-                           company: "บมจ.ซินเน็ค(ประเทศไทยจำกัด) สาขา หาดใหญ",
+                           company: "บมจ.ซินเน็ค(ประเทศไทย)จำกัด สาขา หาดใหญ",
                            period: "11 มีนาคม พ.ศ. 2024 ถึง 10 พฤษภาคม พ.ศ. 2024",
                            description: "งาน service คอมพิวเตอร์และอุปกรณ์ IT ให้กับลูกค้า",
                   },
