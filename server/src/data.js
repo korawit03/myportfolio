@@ -2,7 +2,7 @@
 // PORTFOLIO DATA — แก้ข้อมูลของคุณที่นี่
 // ============================================
 
-const data = {
+const data = {    
          // ข้อมูลส่วนตัว
          about: {
                   name: "Korawit Witthayajarupraphan",
@@ -11,7 +11,7 @@ const data = {
                   email: "tearooa1@gmail.com",
                   github: "https://github.com/korawit03",
                   bio: "frontend developer ที่ชอบสร้างโซลูชันด้วย React, Node.js และ Docker. ยินดีรับงาน freelance และเปิดรับการ collaborate ในโปรเจกต์ใหม่ๆ",
-                  avatar: "https://avatars.githubusercontent.com/u/12345678?v=4",
+                  avatar: "/projects/n.jpg",
          },
 
          //ทักษะ
@@ -42,7 +42,7 @@ const data = {
                            description: "ระบบจัดการงานร้านอลูมิเนียมที่สร้างด้วย React, Node.js และ superbase",
                            tags: ["React", "Node.js", "superbase", "Tailwind CSS"],
                            github: "https://github.com/korawit03/Project_Web",
-                           demo: "http://your-domain.com",
+                           demo: "https://project-web-blush.vercel.app/",
                            image: "",
                   },
          ],

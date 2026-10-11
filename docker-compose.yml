@@ -1,0 +1,26 @@
+# ============================================
+# PORTFOLIO — Docker Compose
+# รันทั้ง Frontend + Backend ด้วยคำสั่งเดียว
+# ============================================
+
+services:
+
+  # ---------- Backend ----------
+  backend:
+    build: ./server
+    container_name: portfolio-backend
+    ports:
+      - "5000:5000"          # เครื่องเรา:5000 → container:5000
+    environment:
+      - PORT=5000
+    restart: unless-stopped
+
+  # ---------- Frontend ----------
+  frontend:
+    build: ./client
+    container_name: portfolio-frontend
+    ports:
+      - "3000:80"           # เครื่องเรา:3000 → container:80 (Nginx)
+    depends_on:
+      - backend             # รัน backend ก่อน
+    restart: unless-stopped
