@@ -1,0 +1,23 @@
+# ---------- Node.js ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------- Environment ----------
+.env
+.env.local
+.env.*.local
+
+# ---------- Build Output ----------
+dist/
+build/
+
+# ---------- Docker ----------
+docker-compose.override.yml
+
+# ---------- Editor / OS ----------
+.vscode/
+.idea/
+.DS_Store
+*.swp
