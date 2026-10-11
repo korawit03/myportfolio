@@ -1,4 +1,5 @@
 # 🐬 My Portfolio
+![Portfolio Screenshot](docs/image.png)
 
 > Personal Portfolio Website — Built with React, Express, Tailwind CSS & Docker
 
