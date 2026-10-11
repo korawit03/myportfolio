@@ -32,8 +32,8 @@ const data = {
                            title: "My Portfolio Website",
                            description: "เว็บไซต์ portfolio ของฉันที่สร้างด้วย React และ Tailwind CSS",
                            tags: ["React", "Tailwind CSS", "Express", "docker"],
-                           github: "https://github.com/korawit03/portfolio",
-                           demo: "http://your-domain.com",
+                           github: "https://github.com/korawit03/myportfolio.git",
+                           demo: "http://localhost:3000/",
                            image: "",
                   },
                   {
